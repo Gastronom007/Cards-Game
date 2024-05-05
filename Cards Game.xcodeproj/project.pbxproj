@@ -15,7 +15,6 @@
 		F5AD1E2D2BE36C0C00157F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AD1E2C2BE36C0C00157F41 /* AppDelegate.swift */; };
 		F5AD1E2F2BE36C0C00157F41 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5AD1E2E2BE36C0C00157F41 /* SceneDelegate.swift */; };
 		F5AD1E342BE36C0C00157F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AD1E322BE36C0C00157F41 /* Main.storyboard */; };
-		F5AD1E362BE36C0D00157F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5AD1E352BE36C0D00157F41 /* Assets.xcassets */; };
 		F5AD1E392BE36C0D00157F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5AD1E372BE36C0D00157F41 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,6 @@
 		F5AD1E2C2BE36C0C00157F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5AD1E2E2BE36C0C00157F41 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F5AD1E332BE36C0C00157F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F5AD1E352BE36C0D00157F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5AD1E382BE36C0D00157F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5AD1E3A2BE36C0D00157F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +103,6 @@
 				F501E4432BE7A31700DDACC6 /* Controller */,
 				F501E43D2BE79E7400DDACC6 /* View */,
 				F5AD1E322BE36C0C00157F41 /* Main.storyboard */,
-				F5AD1E352BE36C0D00157F41 /* Assets.xcassets */,
 				F5AD1E3A2BE36C0D00157F41 /* Info.plist */,
 			);
 			path = "Cards Game";
@@ -170,7 +167,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5AD1E392BE36C0D00157F41 /* LaunchScreen.storyboard in Resources */,
-				F5AD1E362BE36C0D00157F41 /* Assets.xcassets in Resources */,
 				F5AD1E342BE36C0C00157F41 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
