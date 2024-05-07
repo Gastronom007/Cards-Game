@@ -20,7 +20,8 @@ class BoardGameController: UIViewController {
     }
     private var cardMaxXCoordinate: Int {
         Int(boardGameView.frame.width - cardSize.width)
-    }
+    }    
+    
     private var cardMaxYCoordinate: Int {
         Int(boardGameView.frame.height - cardSize.height)
     }

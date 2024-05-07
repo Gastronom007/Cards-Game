@@ -145,6 +145,27 @@ class CardView<ShapeType: ShapeLayerProtocol> :UIView, FlippableView {
         if self.frame.origin == startTouchPoint {
             flip()
         }
+        
+        // make sure PlayField edges are not past
+        guard let superview = superview,
+              let touch = touches.first
+        else { return}
+        
+        let playingField = superview.bounds
+        
+        let location = touch.location(in: window)
+        let previousLocation = touch.precisePreviousLocation(in: window)
+        
+        var newFrame = self.frame.offsetBy(dx: location.x - previousLocation.x, dy: location.y - previousLocation.y)
+        
+        newFrame.origin.x = max(newFrame.origin.x, 0.0)
+        newFrame.origin.x = min(newFrame.origin.x, playingField.size.width - newFrame.size.width)
+        
+        newFrame.origin.y = max(newFrame.origin.y, 0.0)
+        newFrame.origin.y = min(newFrame.origin.y, playingField.size.height - newFrame.size.height)
+        
+        self.frame = newFrame
+        
     }
     
 }
