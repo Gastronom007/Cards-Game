@@ -167,5 +167,4 @@ class CardView<ShapeType: ShapeLayerProtocol> :UIView, FlippableView {
         self.frame = newFrame
         
     }
-    
 }
